@@ -1,12 +1,17 @@
 import java.io.File;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Scanner;
-import java.util.Set;
+import java.lang.reflect.Array;
+import java.util.*;
 
 public class DeleteDuplicatedMusicFiles {
 
-  public static final String[] musicType = {".mp3", ".ape", ".flac",};
+  public static final String[] musicType = {"", "", ".mp3", ".ape", ".flac",};
+  public static final String[] operations = {
+          "1. 列出重复文件",  "2. 列出所有mp3类型文件",
+          "3. 列出所有ape类型文件", "4. 列出所有flac类型文件",
+          "5. 列出所有其它类型文件", "6. 删除重复文件"
+  };
+
+  public static DeleteDuplicatedMusicFiles deleteDuplicatedMusicFiles;
 
   private HashSet<String> nameSet;
   private HashSet<String> duplicatedFiles;
@@ -15,9 +20,14 @@ public class DeleteDuplicatedMusicFiles {
   private HashMap<String, File> flacMusic;
   private HashMap<String, File> otherTypeMusic;
 
-  public DeleteDuplicatedMusicFiles(String filePath) {
+  private DeleteDuplicatedMusicFiles(String filePath) {
     initData();
     run(filePath);
+  }
+
+  public static DeleteDuplicatedMusicFiles getDeleteDuplicatedMusicFiles(String filePath) {
+   return deleteDuplicatedMusicFiles == null ? new DeleteDuplicatedMusicFiles(filePath) :
+           deleteDuplicatedMusicFiles;
   }
 
   public void initData() {
@@ -30,12 +40,17 @@ public class DeleteDuplicatedMusicFiles {
   }
 
   public void run(String filePath){
-    String endFlag = "";
-    System.out.println("请输入操作类型：");
+    System.out.println("当前文件路径：" + filePath);
+    System.out.println("请输入操作类型：" + Arrays.toString(operations));
     getFiles(filePath);
-    while (!endFlag.equals("e")) {
-      Scanner scanner = new Scanner(System.in);
-      scanner.
+    Scanner scanner = new Scanner(System.in);
+    int opt = scanner.nextInt();
+    while (opt != 0) {
+      if (opt == 1 || opt == 2 || opt ==3 || opt == 4 || opt == 5)
+        listFiles(opt);
+      if (opt == 6)
+        delDuplFiles();
+        opt = scanner.nextInt();
     }
   }
 
@@ -59,27 +74,36 @@ public class DeleteDuplicatedMusicFiles {
       else
         nameSet.add(musicName);
 
-      if (fileName.endsWith("\\.mp3"))
+      if (fileName.endsWith(".mp3"))
         mp3Music.put(musicName, file);
-      else if (fileName.endsWith("\\.ape"))
+      else if (fileName.endsWith(".ape"))
         apeMusic.put(musicName, file);
-      else if (fileName.endsWith("\\.flac"))
+      else if (fileName.endsWith(".flac"))
         flacMusic.put(musicName, file);
       else
         otherTypeMusic.put(musicName, file);
     }
-
+    System.out.println();
   }
 
   public void listFiles(int type) {
     Set<String> nameSet = null;
     switch (type) {
-      case 1 :
-        nameSet = mp3Music.keySet();
+      case 1:
+        nameSet = duplicatedFiles;
+        break;
       case 2:
-        nameSet = apeMusic.keySet();
+        nameSet = mp3Music.keySet();
+        break;
       case 3:
+        nameSet = apeMusic.keySet();
+        break;
+      case 4:
         nameSet = flacMusic.keySet();
+        break;
+      case 5:
+        nameSet = otherTypeMusic.keySet();
+        break;
     }
     for (String set : nameSet)
       System.out.println(set + musicType[type]);
@@ -89,7 +113,6 @@ public class DeleteDuplicatedMusicFiles {
     for (String musicName : duplicatedFiles) {
       File mp3File = mp3Music.get(musicName);
       File apeFile = apeMusic.get(musicName);
-      File flacFile = flacMusic.get(musicName);
       if (mp3Music.get(musicName) != null)
         deletFiles(mp3File, apeFile);
        else
@@ -100,7 +123,7 @@ public class DeleteDuplicatedMusicFiles {
   public void deletFiles(File... files) {
     for (File file : files) {
       if (file != null) {
-        file.delete();
+//        file.delete();
         System.out.println("删除文件：" + file.getName());
       }
     }

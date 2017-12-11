@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/219. Contains Duplicate II/219. Contains Duplicate II.iml" filepath="$PROJECT_DIR$/219. Contains Duplicate II/219. Contains Duplicate II.iml" />
+      <module fileurl="file://$PROJECT_DIR$/287. Find the Duplicate Number/287. Find the Duplicate Number.iml" filepath="$PROJECT_DIR$/287. Find the Duplicate Number/287. Find the Duplicate Number.iml" />
+      <module fileurl="file://$PROJECT_DIR$/532. K-diff Pairs in an Array/532. K-diff Pairs in an Array.iml" filepath="$PROJECT_DIR$/532. K-diff Pairs in an Array/532. K-diff Pairs in an Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/DeleteDuplicateMusic/DeleteDuplicateMusic.iml" filepath="$PROJECT_DIR$/DeleteDuplicateMusic/DeleteDuplicateMusic.iml" />
     </modules>
   </component>

@@ -15,6 +15,7 @@ public class DeleteDuplicatedMusicFiles {
 
   private HashSet<String> nameSet;
   private HashSet<String> duplicatedFiles;
+  private HashSet<File> allFiles = new HashSet<File>();
   private HashMap<String, File> apeMusic;
   private HashMap<String, File> mp3Music;
   private HashMap<String, File> flacMusic;
@@ -52,6 +53,22 @@ public class DeleteDuplicatedMusicFiles {
         delDuplFiles();
         opt = scanner.nextInt();
     }
+  }
+
+  /**
+   * 获取当前目录下的所有文件
+   * @param filePath 根目录
+   * @return 如果根目录为空返回null, 否则返回文件列表
+   */
+  public static File[] getAllFiles(String filePath) {
+
+    File rootFile = new File(filePath);
+
+    if (!rootFile.exists()) {
+      System.out.println(filePath + " File doesn't exit!");
+      return null;
+    }
+    return rootFile.listFiles();
   }
 
   /**
@@ -113,10 +130,11 @@ public class DeleteDuplicatedMusicFiles {
     for (String musicName : duplicatedFiles) {
       File mp3File = mp3Music.get(musicName);
       File apeFile = apeMusic.get(musicName);
-      if (mp3Music.get(musicName) != null)
-        deletFiles(mp3File, apeFile);
-       else
+      File flacFile = flacMusic.get(musicName);
+      if (mp3File != null)
         deletFiles(mp3File);
+      if (apeFile != null && flacFile != null)
+        deletFiles(apeFile);
     }
   }
 
@@ -127,21 +145,5 @@ public class DeleteDuplicatedMusicFiles {
         System.out.println("删除文件：" + file.getName());
       }
     }
-  }
-
-  /**
-   * 获取当前目录下的所有文件
-   * @param filePath 根目录
-   * @return 如果根目录为空返回null, 否则返回文件列表
-   */
-  public static File[] getAllFiles(String filePath) {
-
-    File rootFile = new File(filePath);
-
-    if (!rootFile.exists()) {
-      System.out.println(filePath + " File doesn't exit!");
-      return null;
-    }
-    return rootFile.listFiles();
   }
 }

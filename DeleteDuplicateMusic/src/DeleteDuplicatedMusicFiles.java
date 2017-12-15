@@ -6,9 +6,9 @@ public class DeleteDuplicatedMusicFiles {
 
   public static final String[] musicType = {"", "", ".mp3", ".ape", ".flac",};
   public static final String[] operations = {
-          "1. 列出重复文件",  "2. 列出所有mp3类型文件",
-          "3. 列出所有ape类型文件", "4. 列出所有flac类型文件",
-          "5. 列出所有其它类型文件", "6. 删除重复文件"
+          "列出重复文件",  "列出所有mp3类型文件",
+          "列出所有ape类型文件", "列出所有flac类型文件",
+          "列出所有其它类型文件", "删除重复文件"
   };
 
   public static DeleteDuplicatedMusicFiles deleteDuplicatedMusicFiles;

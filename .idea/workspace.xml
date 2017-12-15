@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="951ce952-fb93-49fd-80e5-5f8988156756" name="Default" comment="" />
+=======
     <list default="true" id="951ce952-fb93-49fd-80e5-5f8988156756" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+>>>>>>> 41989a832e6e763335a5cd09fac92ee9713683e8
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,9 +21,23 @@
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/287. Find the Duplicate Number/src/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="264">
               <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+=======
+<<<<<<< HEAD
+            <state relative-caret-position="154">
+              <caret line="9" column="74" lean-forward="false" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
+              <folding>
+                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+              </folding>
+=======
+            <state relative-caret-position="240">
+              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+>>>>>>> 04d4e85d56291ed20bb0c5ff15b6ff0f1d18e864
               <folding />
+>>>>>>> 41989a832e6e763335a5cd09fac92ee9713683e8
             </state>
           </provider>
         </entry>
@@ -27,12 +45,23 @@
       <file leaf-file-name="Arrays.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_11/src.zip!/java/util/Arrays.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="2424">
               <caret line="141" column="29" lean-forward="false" selection-start-line="141" selection-start-column="29" selection-end-line="141" selection-end-column="29" />
+=======
+<<<<<<< HEAD
+            <state relative-caret-position="405">
+              <caret line="115" column="24" lean-forward="true" selection-start-line="115" selection-start-column="24" selection-end-line="115" selection-end-column="24" />
+              <folding />
+=======
+            <state relative-caret-position="322">
+              <caret line="141" column="29" lean-forward="true" selection-start-line="141" selection-start-column="29" selection-end-line="141" selection-end-column="29" />
+>>>>>>> 04d4e85d56291ed20bb0c5ff15b6ff0f1d18e864
               <folding>
                 <element signature="e#4950#4951#0" expanded="true" />
                 <element signature="e#5021#5022#0" expanded="true" />
               </folding>
+>>>>>>> 41989a832e6e763335a5cd09fac92ee9713683e8
             </state>
           </provider>
         </entry>
@@ -481,15 +510,36 @@
       <workItem from="1512954521138" duration="120000" />
       <workItem from="1512954962201" duration="13651000" />
       <workItem from="1512997757142" duration="3266000" />
+<<<<<<< HEAD
+      <workItem from="1513078204329" duration="426000" />
+=======
       <workItem from="1513042461530" duration="1421000" />
       <workItem from="1513048576862" duration="6933000" />
+<<<<<<< HEAD
       <workItem from="1513327224223" duration="54000" />
       <workItem from="1513327354781" duration="42000" />
+=======
+>>>>>>> 41989a832e6e763335a5cd09fac92ee9713683e8
+>>>>>>> 04d4e85d56291ed20bb0c5ff15b6ff0f1d18e864
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="34535000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="26511000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+=======
+    <option name="totallyTimeSpent" value="34439000" />
+>>>>>>> 04d4e85d56291ed20bb0c5ff15b6ff0f1d18e864
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
@@ -497,6 +547,11 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+=======
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+>>>>>>> 41989a832e6e763335a5cd09fac92ee9713683e8
+>>>>>>> 04d4e85d56291ed20bb0c5ff15b6ff0f1d18e864
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -519,8 +574,16 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+<<<<<<< HEAD
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+=======
+<<<<<<< HEAD
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+=======
+>>>>>>> 04d4e85d56291ed20bb0c5ff15b6ff0f1d18e864
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> 41989a832e6e763335a5cd09fac92ee9713683e8
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -582,20 +645,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DeleteDuplicateMusic/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="198">
+          <caret line="9" column="74" lean-forward="false" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
+          <folding>
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+          </folding>
+=======
         <state relative-caret-position="216">
           <caret line="9" column="68" lean-forward="false" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
           <folding />
+>>>>>>> 41989a832e6e763335a5cd09fac92ee9713683e8
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DeleteDuplicateMusic/src/DeleteDuplicatedMusicFiles.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="2024">
+          <caret line="92" column="18" lean-forward="false" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
+          <folding />
+=======
         <state relative-caret-position="1632">
           <caret line="70" column="3" lean-forward="false" selection-start-line="70" selection-start-column="3" selection-end-line="70" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="false" />
             <element signature="e#572#578#0" expanded="false" />
           </folding>
+>>>>>>> 41989a832e6e763335a5cd09fac92ee9713683e8
         </state>
       </provider>
     </entry>
@@ -693,6 +771,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DeleteDuplicateMusic/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="154">
+          <caret line="9" column="74" lean-forward="false" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
+=======
         <state relative-caret-position="216">
           <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding />
@@ -703,6 +785,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="86" column="62" lean-forward="false" selection-start-line="86" selection-start-column="62" selection-end-line="86" selection-end-column="62" />
+>>>>>>> 41989a832e6e763335a5cd09fac92ee9713683e8
           <folding>
             <element signature="imports" expanded="false" />
             <element signature="e#572#578#0" expanded="false" />
@@ -712,8 +795,17 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_11/src.zip!/java/util/DualPivotQuicksort.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="465">
+          <caret line="197" column="23" lean-forward="false" selection-start-line="197" selection-start-column="23" selection-end-line="197" selection-end-column="23" />
+=======
         <state relative-caret-position="-3814">
           <caret line="213" column="24" lean-forward="false" selection-start-line="213" selection-start-column="24" selection-end-line="213" selection-end-column="24" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> 41989a832e6e763335a5cd09fac92ee9713683e8
+>>>>>>> 04d4e85d56291ed20bb0c5ff15b6ff0f1d18e864
         </state>
       </provider>
     </entry>
@@ -730,8 +822,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/287. Find the Duplicate Number/src/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="264">
           <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="405">
+          <caret line="115" column="24" lean-forward="true" selection-start-line="115" selection-start-column="24" selection-end-line="115" selection-end-column="24" />
+=======
+        <state relative-caret-position="240">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+>>>>>>> 41989a832e6e763335a5cd09fac92ee9713683e8
+>>>>>>> 04d4e85d56291ed20bb0c5ff15b6ff0f1d18e864
           <folding />
         </state>
       </provider>

@@ -1,37 +1,54 @@
-import java.util.*;
-
 public class Main {
 
-    private static HashSet<Integer> val = new HashSet<Integer>();
-    private static int size = val.size();
 
-    public static void main(String[] args) {
-        List<Integer> ls = new ArrayList<Integer>() {{
-            add(0);
-            add(1);
-            add(2);
-            add(3);
-            add(4);
-            add(5);
-        }};
-
-        for (int i = 0; i < 5; i++) {
-            int re = ls.get(1);
-            System.out.println(re);
-            ls.remove(re);
-            System.out.println(ls);
-        }
+    static {
+        b = 3;
     }
+    static int b;
 
-    public static int readShort_TIE(int highByte, int lowByte) {
-        int tag = highByte >> 7;//高位的最高位是符号位,0为正
-        int val = ((highByte << 8) + lowByte) & 0x7fff;
-        val *= 10;
-        return tag == 0 ? val : -val;
-    }
 
-    public static int getSize() {
-        return val.size();
+    public static void main(String[] args)  {
+
+
+        System.out.println(b);
+/*        Person p = new Person();
+        Class person = p.getClass();
+        try {
+            Object o =  person.newInstance();
+            Field[] fileds = person.getDeclaredFields();
+            for (Field filed : fileds) {
+                filed.setAccessible(true);
+                System.out.println(filed.get(p));
+            }
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        }*/
+//        1521475200000L
+/*        System.out.println(281479653330760L);
+
+        System.out.println(Integer.MAX_VALUE);
+        System.out.println(Long.MAX_VALUE);
+        System.out.println(Double.MAX_VALUE);
+        System.out.println((double)281479653330760L );
+//        System.out.println(10E13);
+//        System.out.println((double)1/3);
+
+
+        System.out.println((double) 336966472);*/
+//        System.out.println("aadsa".replace("aadsa", null));
+
+//        ArrayList<String> a = new ArrayList<String>();
+//        System.out.println(a.get(10));
+//        System.out.println(new Date(System.currentTimeMillis()));
+//        ArrayList<String> list = new ArrayList<>(300000);
+//        for (int i = 0; i < 30000; i++) {
+//            list.add("" + i);
+//        }
+//        System.out.println(new Date(System.currentTimeMillis()));
+//        System.out.println("Done");
+
     }
 
 }

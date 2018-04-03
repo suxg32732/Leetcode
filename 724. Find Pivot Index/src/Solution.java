@@ -7,16 +7,14 @@ public class Solution {
         if (nums.length < 3)
             return -1;
         while (i <= j) {
+            int dis = leftSum - rigthSum;
             if (leftSum == rigthSum) {
                 if (i == j)
                     return i;
                 leftSum += nums[i++];
                 rigthSum += nums[j--];
             }
-            else {
-                int left = Math.abs(leftSum + nums[i++]) -
-                if (Math.abs())
-            }
+            else if (leftSum + nums[i] - rigthSum < dis)
 
         }
         return -1;

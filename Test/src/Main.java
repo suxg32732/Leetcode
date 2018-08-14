@@ -10,10 +10,12 @@ public class Main {
 
 
     public static void main(String[] args)  {
-        String a ="aa,aa, ";
-        int len = a.length();
-        if (a.endsWith(", "))
-            System.out.println(a.substring(0, len-1));
+        int[] a = new int[7];
+        String[] b= new String[5];
+        System.out.println(a[5]);
+        System.out.println(Arrays.toString(a));
+        System.out.println(b[4]);
+        System.out.println(Arrays.toString(b));
 
     }
 

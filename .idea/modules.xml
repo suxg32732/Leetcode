@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/287. Find the Duplicate Number/287. Find the Duplicate Number.iml" filepath="$PROJECT_DIR$/287. Find the Duplicate Number/287. Find the Duplicate Number.iml" />
       <module fileurl="file://$PROJECT_DIR$/442. Find All Duplicates in an Array/442. Find All Duplicates in an Array.iml" filepath="$PROJECT_DIR$/442. Find All Duplicates in an Array/442. Find All Duplicates in an Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/495. Teemo Attacking/495. Teemo Attacking.iml" filepath="$PROJECT_DIR$/495. Teemo Attacking/495. Teemo Attacking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/565. Array Nesting/565. Array Nesting.iml" filepath="$PROJECT_DIR$/565. Array Nesting/565. Array Nesting.iml" />
       <module fileurl="file://$PROJECT_DIR$/581. Shortest Unsorted Continuous Subarray/581. Shortest Unsorted Continuous Subarray.iml" filepath="$PROJECT_DIR$/581. Shortest Unsorted Continuous Subarray/581. Shortest Unsorted Continuous Subarray.iml" />
       <module fileurl="file://$PROJECT_DIR$/605. Can Place Flowers/605. Can Place Flowers.iml" filepath="$PROJECT_DIR$/605. Can Place Flowers/605. Can Place Flowers.iml" />
       <module fileurl="file://$PROJECT_DIR$/665. Non-decreasing Array/665. Non-decreasing Array.iml" filepath="$PROJECT_DIR$/665. Non-decreasing Array/665. Non-decreasing Array.iml" />
@@ -18,7 +19,9 @@
       <module fileurl="file://$PROJECT_DIR$/724. Find Pivot Index/724. Find Pivot Index.iml" filepath="$PROJECT_DIR$/724. Find Pivot Index/724. Find Pivot Index.iml" />
       <module fileurl="file://$PROJECT_DIR$/747. Largest Number At Least Twice of Others/747. Largest Number At Least Twice of Others.iml" filepath="$PROJECT_DIR$/747. Largest Number At Least Twice of Others/747. Largest Number At Least Twice of Others.iml" />
       <module fileurl="file://$PROJECT_DIR$/766. Toeplitz Matrix/766. Toeplitz Matrix.iml" filepath="$PROJECT_DIR$/766. Toeplitz Matrix/766. Toeplitz Matrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/830. Positions of Large Groups/830. Positions of Large Groups.iml" filepath="$PROJECT_DIR$/830. Positions of Large Groups/830. Positions of Large Groups.iml" />
       <module fileurl="file://$PROJECT_DIR$/832. Flipping an Image/832. Flipping an Image.iml" filepath="$PROJECT_DIR$/832. Flipping an Image/832. Flipping an Image.iml" />
+      <module fileurl="file://$PROJECT_DIR$/849. Maximize Distance to Closest Person/849. Maximize Distance to Closest Person.iml" filepath="$PROJECT_DIR$/849. Maximize Distance to Closest Person/849. Maximize Distance to Closest Person.iml" />
       <module fileurl="file://$PROJECT_DIR$/88. Merge Sorted Array/88. Merge Sorted Array.iml" filepath="$PROJECT_DIR$/88. Merge Sorted Array/88. Merge Sorted Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/DeleteDuplicateMusic/DeleteDuplicateMusic.iml" filepath="$PROJECT_DIR$/DeleteDuplicateMusic/DeleteDuplicateMusic.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />

@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 public class Solution {
 
@@ -53,6 +54,7 @@ public class Solution {
 
     public static void main(String[] args) {
         int[] a= {5,1,1,8,1,6,5,9,7,8};
+        Arrays.binarySearch(a,5);
         System.out.println(maxChunksToSorted(a));
 //        System.out.println(Integer.MAX_VALUE);
     }

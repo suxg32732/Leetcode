@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/119. Pascal's Triangle II/119. Pascal's Triangle II.iml" filepath="$PROJECT_DIR$/119. Pascal's Triangle II/119. Pascal's Triangle II.iml" />
       <module fileurl="file://$PROJECT_DIR$/21. Merge Two Sorted Lists/21. Merge Two Sorted Lists.iml" filepath="$PROJECT_DIR$/21. Merge Two Sorted Lists/21. Merge Two Sorted Lists.iml" />
       <module fileurl="file://$PROJECT_DIR$/219. Contains Duplicate II/219. Contains Duplicate II.iml" filepath="$PROJECT_DIR$/219. Contains Duplicate II/219. Contains Duplicate II.iml" />
+      <module fileurl="file://$PROJECT_DIR$/235. Lowest Common Ancestor of a Binary Search Tree/235. Lowest Common Ancestor of a Binary Search Tree.iml" filepath="$PROJECT_DIR$/235. Lowest Common Ancestor of a Binary Search Tree/235. Lowest Common Ancestor of a Binary Search Tree.iml" />
       <module fileurl="file://$PROJECT_DIR$/238. Product of Array Except Self/238. Product of Array Except Self.iml" filepath="$PROJECT_DIR$/238. Product of Array Except Self/238. Product of Array Except Self.iml" />
       <module fileurl="file://$PROJECT_DIR$/287. Find the Duplicate Number/287. Find the Duplicate Number.iml" filepath="$PROJECT_DIR$/287. Find the Duplicate Number/287. Find the Duplicate Number.iml" />
       <module fileurl="file://$PROJECT_DIR$/338. Counting Bits/338. Counting Bits.iml" filepath="$PROJECT_DIR$/338. Counting Bits/338. Counting Bits.iml" />
@@ -20,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/59. Spiral Matrix II/59. Spiral Matrix II.iml" filepath="$PROJECT_DIR$/59. Spiral Matrix II/59. Spiral Matrix II.iml" />
       <module fileurl="file://$PROJECT_DIR$/590. N-ary Tree Postorder Traversal/590. N-ary Tree Postorder Traversal.iml" filepath="$PROJECT_DIR$/590. N-ary Tree Postorder Traversal/590. N-ary Tree Postorder Traversal.iml" />
       <module fileurl="file://$PROJECT_DIR$/605. Can Place Flowers/605. Can Place Flowers.iml" filepath="$PROJECT_DIR$/605. Can Place Flowers/605. Can Place Flowers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/637. Average of Levels in Binary Tree/637. Average of Levels in Binary Tree.iml" filepath="$PROJECT_DIR$/637. Average of Levels in Binary Tree/637. Average of Levels in Binary Tree.iml" />
       <module fileurl="file://$PROJECT_DIR$/665. Non-decreasing Array/665. Non-decreasing Array.iml" filepath="$PROJECT_DIR$/665. Non-decreasing Array/665. Non-decreasing Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/697. Degree of an Array/697. Degree of an Array.iml" filepath="$PROJECT_DIR$/697. Degree of an Array/697. Degree of an Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/700. Search in a Binary Search Tree/700. Search in a Binary Search Tree.iml" filepath="$PROJECT_DIR$/700. Search in a Binary Search Tree/700. Search in a Binary Search Tree.iml" />
@@ -39,6 +41,7 @@
       <module fileurl="file://$PROJECT_DIR$/872. Leaf-Similar Trees/872. Leaf-Similar Trees.iml" filepath="$PROJECT_DIR$/872. Leaf-Similar Trees/872. Leaf-Similar Trees.iml" />
       <module fileurl="file://$PROJECT_DIR$/88. Merge Sorted Array/88. Merge Sorted Array.iml" filepath="$PROJECT_DIR$/88. Merge Sorted Array/88. Merge Sorted Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/DeleteDuplicateMusic/DeleteDuplicateMusic.iml" filepath="$PROJECT_DIR$/DeleteDuplicateMusic/DeleteDuplicateMusic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SingleInstance/SingleInstance.iml" filepath="$PROJECT_DIR$/SingleInstance/SingleInstance.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
     </modules>
   </component>

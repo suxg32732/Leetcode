@@ -9,8 +9,8 @@ public class Main {
     public static String testPath = "d:"+ File.separator + "test";
 
     public static void main(String[] args) {
-//        DeleteDuplicatedMusicFiles.getDeleteDuplicatedMusicFiles(resPath);
-        DeleteDuplicatedMusicFiles.getDeleteDuplicatedMusicFiles(testPath);
+        DeleteDuplicatedMusicFiles.getDeleteDuplicatedMusicFiles(resPath);
+//        DeleteDuplicatedMusicFiles.getDeleteDuplicatedMusicFiles(testPath);
     }
 
 
